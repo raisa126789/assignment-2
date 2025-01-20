@@ -75,6 +75,21 @@ font-size:larger ;
 } */
  .hero-sec{
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    /* gap: 30px; */
     align-items: center;
+
+ }
+ /* .hero-img{
+    width: 100%;
+ } */
+ @media screen and (max-width:576px) {
+    .school,
+    .nav-menu,
+    .btn-primary{
+       visibility: hidden;
+    }
+   .hero-sec{
+flex-direction: column-reverse;
+   }
  }
